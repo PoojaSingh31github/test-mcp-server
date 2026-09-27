@@ -1,0 +1,33 @@
+[project]
+name = "math-text-mcp-server"
+version = "1.0.0"
+description = "Production-ready Python MCP Server providing math and text tools, resources, and prompts"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp>=1.0.0",
+    "uvicorn>=0.30.0",
+    "starlette>=0.38.0",
+    "pydantic>=2.0.0",
+]
+
+[project.scripts]
+math-text-mcp-server = "src.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "httpx>=0.27.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

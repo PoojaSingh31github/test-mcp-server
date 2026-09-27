@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ord_5001",
+    "order_number": "ORD-2024-5001",
+    "user_id": "usr_001",
+    "items": [
+      {
+        "product_id": "prod_101",
+        "name": "Cloud AI Gateway",
+        "quantity": 2,
+        "unit_price": 299.99
+      },
+      {
+        "product_id": "prod_103",
+        "name": "Wireless Ergonomic Keyboard",
+        "quantity": 1,
+        "unit_price": 129.50
+      }
+    ],
+    "total_amount": 729.48,
+    "currency": "USD",
+    "status": "completed",
+    "order_date": "2024-03-12T10:30:00Z"
+  },
+  {
+    "id": "ord_5002",
+    "order_number": "ORD-2024-5002",
+    "user_id": "usr_002",
+    "items": [
+      {
+        "product_id": "prod_102",
+        "name": "Developer Pro Laptop",
+        "quantity": 1,
+        "unit_price": 1899.00
+      }
+    ],
+    "total_amount": 1899.00,
+    "currency": "USD",
+    "status": "shipped",
+    "order_date": "2024-03-14T14:20:00Z"
+  },
+  {
+    "id": "ord_5003",
+    "order_number": "ORD-2024-5003",
+    "user_id": "usr_003",
+    "items": [
+      {
+        "product_id": "prod_104",
+        "name": "4K Ultra-Wide Monitor",
+        "quantity": 1,
+        "unit_price": 649.00
+      },
+      {
+        "product_id": "prod_105",
+        "name": "Noise Cancelling Headset",
+        "quantity": 1,
+        "unit_price": 249.99
+      }
+    ],
+    "total_amount": 898.99,
+    "currency": "USD",
+    "status": "processing",
+    "order_date": "2024-03-15T09:00:00Z"
+  }
+]
